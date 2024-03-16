@@ -1,0 +1,17 @@
+<launch>
+    <include file="$(find maze_bot_gazebo)/launch/leo_gazebo.launch"
+        pass_all_args="true">
+        <arg name="world_name" value="$(find maze_bot_gazebo)/worlds/maze_final.world" />
+        <arg name="x" value="7.0" />
+        <arg name="y" value="-7.0" />
+    </include>
+
+    <include file="$(find maze_bot_viz)/launch/rviz.launch" />
+
+    <node name="ground_truth_filter"
+        pkg="maze_bot_gazebo"
+        type="ground_truth_filter">
+    </node>
+</launch>
+
+

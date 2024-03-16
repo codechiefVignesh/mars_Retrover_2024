@@ -1,0 +1,8 @@
+prefix=/mazerover/devel
+
+Name: maze_bot_teleop
+Description: Description of maze_bot_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

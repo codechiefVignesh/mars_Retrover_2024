@@ -1,0 +1,5 @@
+mazerover/maze_bot_description
+/mazerover/devel/.private/maze_bot_description/cmake.lock /mazerover/devel/./cmake.lock
+/mazerover/devel/.private/maze_bot_description/share/maze_bot_description/cmake/maze_bot_descriptionConfig-version.cmake /mazerover/devel/share/maze_bot_description/cmake/maze_bot_descriptionConfig-version.cmake
+/mazerover/devel/.private/maze_bot_description/share/maze_bot_description/cmake/maze_bot_descriptionConfig.cmake /mazerover/devel/share/maze_bot_description/cmake/maze_bot_descriptionConfig.cmake
+/mazerover/devel/.private/maze_bot_description/lib/pkgconfig/maze_bot_description.pc /mazerover/devel/lib/pkgconfig/maze_bot_description.pc

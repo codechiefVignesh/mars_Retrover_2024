@@ -1,0 +1,30 @@
+from control_utils import utils
+import rospy
+
+if __name__ == "__main__":
+    rospy.init_node('odometry_listener', anonymous=True)
+
+    controller = utils.DepthAndIMUController()    
+    movement_controller = utils.MovementController()  
+
+    i = 2
+    rate = rospy.Rate(10)  # Adjust the rate as needed
+
+    while not rospy.is_shutdown():
+        # Move forward initially
+        movement_controller.forward()
+        
+        # Check depth in front of the robot
+        distance = utils.depth(controller)
+        
+        # Threshold to detect a wall (adjust as needed)
+        wall_threshold = 1000  # Example threshold
+        
+        if distance is not None and distance < wall_threshold:
+            # If wall detected, stop and rotate left
+            movement_controller.stop()
+            movement_controller.rotate_left()
+
+        rate.sleep()
+
+    rospy.spin()

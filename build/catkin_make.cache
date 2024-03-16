@@ -1,0 +1,2 @@
+mazerover/maze_bot_control:mazerover/maze_bot_description:mazerover/maze_bot_gazebo:mazerover/maze_bot_monitor:mazerover/maze_bot_teleop:mazerover/maze_bot_viz
+-DCATKIN_DEVEL_PREFIX=/mazerover/devel -DCMAKE_INSTALL_PREFIX=/mazerover/install -G Unix Makefiles

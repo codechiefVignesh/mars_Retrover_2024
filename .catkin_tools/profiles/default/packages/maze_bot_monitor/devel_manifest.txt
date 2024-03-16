@@ -1,0 +1,7 @@
+mazerover/maze_bot_monitor
+/mazerover/devel/.private/maze_bot_monitor/cmake.lock /mazerover/devel/./cmake.lock
+/mazerover/devel/.private/maze_bot_monitor/share/maze_bot_monitor/cmake/maze_bot_monitorConfig.cmake /mazerover/devel/share/maze_bot_monitor/cmake/maze_bot_monitorConfig.cmake
+/mazerover/devel/.private/maze_bot_monitor/share/maze_bot_monitor/cmake/maze_bot_monitorConfig-version.cmake /mazerover/devel/share/maze_bot_monitor/cmake/maze_bot_monitorConfig-version.cmake
+/mazerover/devel/.private/maze_bot_monitor/lib/pkgconfig/maze_bot_monitor.pc /mazerover/devel/lib/pkgconfig/maze_bot_monitor.pc
+/mazerover/devel/.private/maze_bot_monitor/lib/maze_bot_monitor/cmake.lock /mazerover/devel/lib/maze_bot_monitor/cmake.lock
+/mazerover/devel/.private/maze_bot_monitor/lib/maze_bot_monitor/collision_detector.py /mazerover/devel/lib/maze_bot_monitor/collision_detector.py
